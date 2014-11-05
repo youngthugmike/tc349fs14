@@ -1,0 +1,20 @@
+@import "compass/css3";
+ 
+@include font-face("Times New Roman", font-files("h2/Times New Roman.ttf", "h2/Times New Roman.otf"));
+ 
+
+h2 {
+   font-family: "Times New Roman";
+   font-size: 1.5em;
+
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   text-align:center;
+   margin: 0 auto;
+   width: 960px;
+   color:white;
+   font-size:75px;
+   height: 552px;
+}

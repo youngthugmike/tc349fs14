@@ -1,0 +1,23 @@
+
+.box{
+    height: 100px;
+    width:100px;
+    background: #424242;
+    @include border-radius(25px);
+    @include transition-property(all); 
+    @include transition-dutration(3s); ///< time of the transition effect to the hover
+
+    &:hover{
+        background: #990000;   ///< change the object to a new color
+        height:200px;    ///< changes the object to a new size
+        width: 200px;     ///< change the object to a new size
+    }
+
+    &.larger{
+        width:1000px;
+        height:1000px;
+    }
+}
+
+
+

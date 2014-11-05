@@ -1,0 +1,108 @@
+/* line 1, ../sass/components/_body.scss */
+body {
+  margin: auto;
+  width: 960px;
+  background: #E6E6E6;
+}
+
+/* line 1, ../sass/components/_bottom.scss */
+.bottom {
+  float: left;
+  height: 300px;
+  margin: 0 auto;
+  width: 960px;
+  background: #091783;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer {
+  float: left;
+  height: 300px;
+  margin: 0 auto;
+  width: 960px;
+  background: #041762;
+}
+
+/* line 1, ../sass/components/_mid.scss */
+.mid {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* line 1, ../sass/components/_middle.scss */
+.middle {
+  float: left;
+  height: 300px;
+  margin: 2px auto;
+  width: 960px;
+  background: #0b55b1;
+  -moz-box-shadow: blue 2px 2px 10px;
+  -webkit-box-shadow: blue 2px 2px 10px;
+  box-shadow: blue 2px 2px 10px;
+}
+
+/* line 3, ../sass/components/_top.scss */
+.top {
+  float: left;
+  height: 300px;
+  margin: 0 auto;
+  width: 960px;
+  background: #1676ed;
+  text-shadow: 0px 1px 3px white;
+}
+
+/* line 1, ../sass/components/_tp.scss */
+.tp {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* line 1, ../sass/components/_footer h4.scss */
+.footer h4 {
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* line 1, ../sass/components/_footer ul.scss */
+.footer ul {
+  list-style-type: none;
+}
+
+/* line 1, ../sass/components/_footer li.scss */
+.footer li {
+  font-size: 20px;
+  margin-left: 50px;
+  color: white;
+}
+
+/* line 1, ../sass/components/_image.scss */
+.image {
+  position: relative;
+}
+
+@font-face {
+  font-family: "Times New Roman";
+  src: url('/stylesheets/fonts/h2/Times New Roman.ttf') format('truetype'), url('/stylesheets/fonts/h2/Times New Roman.otf') format('opentype');
+}
+
+/* line 6, ../sass/components/_h2.scss */
+h2 {
+  font-family: "Times New Roman";
+  font-size: 1.5em;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  width: 960px;
+  color: white;
+  font-size: 75px;
+  height: 552px;
+}
