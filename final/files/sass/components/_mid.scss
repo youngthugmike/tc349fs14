@@ -1,0 +1,13 @@
+.mid{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: white;
+    text-align:center;
+    -webkit-transition:font-size 2s, -webkit-transform 2s;
+    transition:font-size 2s, transform 2s;
+}
+
+.mid:hover{
+     font-size: 40px;
+}

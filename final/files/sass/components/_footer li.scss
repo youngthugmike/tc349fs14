@@ -1,0 +1,12 @@
+.footer li{
+    font-size: 20px;
+    margin-right: 50px;
+    color: white;
+    text-align:center;
+    -webkit-transition:font-size 2s, -webkit-transform 2s;
+    transition:font-size 2s, transform 2s;
+}
+
+.footer li:hover{
+     font-size: 40px;
+}

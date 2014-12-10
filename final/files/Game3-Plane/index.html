@@ -1,0 +1,46 @@
+﻿
+<html>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+<title>Jet</title>
+<script type="text/javascript" src="js/util.js"></script>
+<script type="text/javascript" src="js/entity.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+
+window.onload=function(){
+	Main.init();
+	Util.g("startBtn").onclick=function(){
+		Main.start();
+		this.style.display="none";
+	}
+}
+</script>
+</head>
+<!--
+自己
+敌机
+子弹
+-->
+<body>
+    <h1><font color="white" face="verdana"><i class="fa fa-plane "></i> Jet </font></h1>
+    <style type="text/css">
+        body {
+            background-color: #000000;
+            text-align: center;
+            padding-top: 0px;
+        }
+
+    </style>
+
+        <div id="parent" style=" margin: 0 auto; width:320px; height:480px; background-color:#fff; position: relative; overflow:hidden;"> 
+    <div style=" position:absolute; left:5px; top:5px;">Score:<span id="score">0</span></div> 
+    <button style=" position:absolute; left:125px; top:240px; display:block;" id="startBtn" > StartJet </button > 
+    </div > 
+    <p><font color="white" face="verdana"> Notice: There is really, nothing special </font></p>
+</body > 
+
+
+</html >
+    

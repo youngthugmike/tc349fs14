@@ -1,0 +1,208 @@
+/* line 1, ../sass/components/_body.scss */
+body {
+  margin: auto;
+  width: 960px;
+  background: #000000;
+}
+
+/* line 1, ../sass/components/_bottom.scss */
+.bottom {
+  float: left;
+  height: 350px;
+  margin: 0 auto;
+  width: 960px;
+  background: #121111;
+  -moz-box-shadow: white 2px 2px 10px;
+  -webkit-box-shadow: white 2px 2px 10px;
+  box-shadow: white 2px 2px 10px;
+}
+
+/* line 1, ../sass/components/_bottom li.scss */
+.bottom li {
+  width: 325px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 1px 3px black;
+}
+
+/* line 1, ../sass/components/_bottom ul.scss */
+.bottom ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* line 1, ../sass/components/_footer li.scss */
+.footer li {
+  font-size: 20px;
+  margin-right: 50px;
+  color: white;
+  text-align: center;
+  -webkit-transition: font-size 0.5s, -webkit-transform 0.5s;
+  transition: font-size 0.5s, transform 0.5s;
+  text-shadow: 0px 1px 3px black;
+}
+
+/* line 10, ../sass/components/_footer li.scss */
+.footer li:hover {
+  font-size: 23px;
+}
+
+/* line 1, ../sass/components/_footer ul.scss */
+.footer ul {
+  list-style-type: none;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer {
+  float: left;
+  height: 150px;
+  margin: 0 auto;
+  width: 960px;
+  background:   #121111;
+  -moz-box-shadow: white 2px 2px 10px;
+  -webkit-box-shadow: white 2px 2px 10px;
+  box-shadow: white 2px 2px 10px;
+}
+
+.footer_2 {
+    color: white;
+    text-align: center;
+  float: left;
+  height: 45px;
+  margin: 0 auto;
+  width: 960px;
+  background:   #121111;
+  -moz-box-shadow: white 2px 2px 10px;
+  -webkit-box-shadow: white 2px 2px 10px;
+  box-shadow: white 2px 2px 10px;
+}
+
+/* line 1, ../sass/components/_h4.scss */
+h4 {
+    font-family: Verdana;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 0px 1px 3px black;
+}
+
+/* line 1, ../sass/components/_h5.scss */
+h5 {
+    font-family: verdana; 
+    color:white;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+      text-shadow: 0px 1px 3px black;
+}
+
+/* line 1, ../sass/components/_mid.scss */
+.mid {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+  -webkit-transition: font-size 2s, -webkit-transform 2s;
+  transition: font-size 2s, transform 2s;
+}
+
+/* line 11, ../sass/components/_mid.scss */
+.mid:hover {
+  font-size: 40px;
+}
+
+/* line 1, ../sass/components/_mid_1.scss */
+.mid_1 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_middle.scss */
+.middle {
+  float: left;
+  height: 400px;
+  margin: 0 auto;
+  width: 960px;
+  background:  #121111;
+  -moz-box-shadow: white 2px 2px 10px;
+  -webkit-box-shadow: white 2px 2px 10px;
+  box-shadow: white 2px 2px 10px;
+}
+
+/* line 1, ../sass/components/_top.scss */
+.top {
+  float: left;
+  height: 330px;
+  margin: 0 auto;
+  width: 960px;
+  background:   #121111;
+  -moz-box-shadow: white 2px 2px 10px;
+  -webkit-box-shadow: white 2px 2px 10px;
+  box-shadow: white 2px 2px 10px;
+}
+
+/* line 1, ../sass/components/_tp.scss */
+.tp {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_image.scss */
+.image {
+  position: relative;
+  -moz-box-shadow: white 2px 2px 10px;
+  -webkit-box-shadow: white 2px 2px 10px;
+  box-shadow: white 2px 2px 10px;
+}
+
+.top li {
+  width: 325px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  text-align: left;
+
+  margin-bottom:30px;
+  text-shadow: 0px 1px 3px black;
+}
+
+/* line 1, ../sass/components/_bottom ul.scss */
+.top ul {
+
+  list-style-type: none;
+  display: inline-block;
+  
+}
+
+/* line 1, ../sass/components/_bottom li.scss */
+.middle li {
+  width: 250px;
+  font-size: 20px;
+  margin-left:  0px;
+  margin-right: 0px;
+  color: white;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_bottom ul.scss */
+.middle ul {
+  list-style-type: none;
+  display: inline-block;
+
+}
+
